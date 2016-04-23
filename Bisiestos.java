@@ -96,7 +96,7 @@ public class Bisiestos {
         }
     
     
-    if(año>0 || año%4==0 && año%100>1 || año%400==0){
+    if(año<0 || año%4==0 && año%100>1 || año%400==0){
         
         System.out.println("Es año bisiesto");
         

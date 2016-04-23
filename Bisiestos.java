@@ -87,7 +87,7 @@ public class Bisiestos {
         
         System.out.println("Mes Correcto");
     }
-     //Dentro del siguiente while está el algoritmo para evaular si es bisiesto o no: p^(-q or r)
+     //Dentro del siguiente while está el algoritmo para evaular si es bisiesto o no
     while(año<0 || año%4==0 && año%100>1 || año%400==0){
             System.out.println("Vuelva a introducir el año, no puede ser bisiesto: ");
             año = entradaFecha.nextInt();
@@ -96,7 +96,7 @@ public class Bisiestos {
         }
     
     
-    if(año<0 || año%4==0 && año%100>1 || año%400==0){
+    if(año>0 || año%4==0 && año%100>1 || año%400==0){
         
         System.out.println("Es año bisiesto");
         

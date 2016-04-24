@@ -41,7 +41,7 @@ public class Bisiestos {
         
     }
         
-    if(mes==1 || mes==3 || mes==5 || mes==7 || mes==8 || mes==10 || mes==12 && dia==0 && dia>31){
+    if((mes==1 || mes==3 || mes==5 || mes==7 || mes==8 || mes==10 || mes==12) && (dia==0 && dia>31)){
             
         
         do{
@@ -53,7 +53,7 @@ public class Bisiestos {
         
     } 
         
-    if(mes==4 || mes==6 || mes==9 || mes==11 && dia==0 && dia>30){   
+    if((mes==4 || mes==6 || mes==9 || mes==11) && (dia==0 && dia>30)){   
             do{
                
                 System.out.println("Este mes tiene cantidad de días incorrectos: ");
